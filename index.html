@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Critical Dungeons - Um RPG de dungeon crawler com magia, monstros e aventura épica. Explore masmorras sombrias e enfrente desafios críticos!">
+    <title>Critical Dungeons - RPG Dungeon Crawler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ═══════════ HEADER / NAV ═══════════ -->
+    <header class="site-header">
+        <nav class="nav-bar">
+            <a href="#home" class="nav-logo">⚔ Critical Dungeons</a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ═══════════ HERO SECTION ═══════════ -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">⬥ Adentre as profundezas ⬥</p>
+            <h1 class="hero-title">Critical<br>Dungeons</h1>
+            <p class="hero-tagline">Explore masmorras sombrias. Enfrente monstros lendários.<br>Role os dados e decida seu destino.</p>
+            <a href="#about" class="btn-primary">Descobrir Mais</a>
+        </div>
+        <div class="hero-rune hero-rune-left">&#9878;</div>
+        <div class="hero-rune hero-rune-right">&#9878;</div>
+    </section>
+
+    <!-- ═══════════ ABOUT SECTION ═══════════ -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Sobre o Jogo</h2>
+            <div class="section-divider"></div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        <strong>Critical Dungeons</strong> é um RPG de dungeon crawler onde cada decisão
+                        pode ser a diferença entre a glória e a derrota. Reúna seu grupo de aventureiros,
+                        escolha suas classes e mergulhe em masmorras repletas de armadilhas, tesouros e
+                        criaturas das trevas.
+                    </p>
+                    <p>
+                        Com um sistema de combate baseado em dados d20, cada rolagem é um momento de
+                        tensão — um acerto crítico pode virar a batalha, mas uma falha crítica pode
+                        selar seu destino. Estratégia, trabalho em equipe e um pouco de sorte são
+                        essenciais para sobreviver.
+                    </p>
+                    <div class="feature-badges">
+                        <span class="badge">🎲 Sistema d20</span>
+                        <span class="badge">⚔ Combate Tático</span>
+                        <span class="badge">🗺 Exploração</span>
+                        <span class="badge">🧙 Magia Arcana</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/screenshot.png" alt="Screenshot do jogo Critical Dungeons mostrando uma masmorra">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ CLASSES SECTION ═══════════ -->
+    <section id="classes" class="section classes-section">
+        <div class="container">
+            <h2 class="section-title">Escolha sua Classe</h2>
+            <div class="section-divider"></div>
+            <div class="classes-grid">
+
+                <article class="class-card">
+                    <div class="class-icon">🗡</div>
+                    <h3>Guerreiro</h3>
+                    <p>Mestre do combate corpo a corpo, o Guerreiro lidera a linha de frente com força bruta e armadura pesada.</p>
+                    <div class="class-stats">
+                        <span class="stat"><em>FOR</em> 18</span>
+                        <span class="stat"><em>DEF</em> 16</span>
+                        <span class="stat"><em>VEL</em> 10</span>
+                    </div>
+                </article>
+
+                <article class="class-card">
+                    <div class="class-icon">🔮</div>
+                    <h3>Mago</h3>
+                    <p>Dominando as artes arcanas, o Mago canaliza poder devastador à distância com feitiços elementais.</p>
+                    <div class="class-stats">
+                        <span class="stat"><em>INT</em> 20</span>
+                        <span class="stat"><em>MAN</em> 18</span>
+                        <span class="stat"><em>VIT</em> 8</span>
+                    </div>
+                </article>
+
+                <article class="class-card">
+                    <div class="class-icon">🗡</div>
+                    <h3>Ladino</h3>
+                    <p>Furtivo e letal, o Ladino ataca pelas sombras com precisão mortal e reflexos incomparáveis.</p>
+                    <div class="class-stats">
+                        <span class="stat"><em>AGI</em> 19</span>
+                        <span class="stat"><em>CRI</em> 17</span>
+                        <span class="stat"><em>FUR</em> 16</span>
+                    </div>
+                </article>
+
+                <article class="class-card">
+                    <div class="class-icon">✙</div>
+                    <h3>Curandeiro</h3>
+                    <p>Guardião da vida, o Curandeiro mantém o grupo vivo com magias de cura e bênçãos protetoras.</p>
+                    <div class="class-stats">
+                        <span class="stat"><em>SAB</em> 18</span>
+                        <span class="stat"><em>CUR</em> 20</span>
+                        <span class="stat"><em>FÉ</em> 16</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ GALLERY SECTION ═══════════ -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="section-divider"></div>
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-item-large">
+                    <img src="img/hero-bg.png" alt="Masmorra mística com runas brilhantes">
+                    <figcaption>Masmorras Místicas</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/characters.png" alt="Personagens do jogo Critical Dungeons">
+                    <figcaption>Heróis Lendários</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/screenshot.png" alt="Exploração de dungeon com armadilhas e tesouros">
+                    <figcaption>Exploração Épica</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════ CONTACT / CTA SECTION ═══════════ -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Junte-se à Aventura</h2>
+            <div class="section-divider"></div>
+            <p class="contact-text">
+                Inscreva-se para receber novidades, atualizações e ser o primeiro
+                a explorar as masmorras de <strong>Critical Dungeons</strong>.
+            </p>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Seu Nome de Aventureiro</label>
+                    <input type="text" id="name" name="name" placeholder="Ex: Thorin Escudo-de-Carvalho" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Pergaminho Eletrônico (E-mail)</label>
+                    <input type="email" id="email" name="email" placeholder="aventureiro@dungeon.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="class-select">Classe Preferida</label>
+                    <select id="class-select" name="class">
+                        <option value="">Selecione sua classe...</option>
+                        <option value="guerreiro">🗡 Guerreiro</option>
+                        <option value="mago">🔮 Mago</option>
+                        <option value="ladino">🗡 Ladino</option>
+                        <option value="curandeiro">✙ Curandeiro</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Entrar na Masmorra</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>⚔ Critical Dungeons</h3>
+                    <p>Cada rolagem importa. Cada decisão conta.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <ul>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">Twitter / X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Critical Dungeons. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
